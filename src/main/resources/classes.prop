@@ -1,0 +1,3 @@
+java.util.List = java.util.ArrayList
+java.util.Map = java.util.HashMap
+br.com.alura.reflection.interfaces.ExampleInterface = br.com.alura.reflection.ExampleClass

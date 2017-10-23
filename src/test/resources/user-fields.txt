@@ -1,0 +1,7 @@
+<User> 
+<login>rafael</br.com.alura.reflection.model.User> 
+<password>passwordrafael</br.com.alura.reflection.model.User> 
+<email>rafael@rafael.com</br.com.alura.reflection.model.User> 
+<role>student</br.com.alura.reflection.model.User> 
+<active>true</br.com.alura.reflection.model.User> 
+</User> 
