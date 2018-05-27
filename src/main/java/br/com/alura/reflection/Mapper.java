@@ -46,13 +46,11 @@ public class Mapper {
         Object newInstance;
 
         try {
-
             for (int i = 0; i < constructorTypes.length; i++) {
                 constructorTypes[i] = params[i].getClass();
             }
 
             newInstance = impl.getConstructor(constructorTypes).newInstance(params);
-
         } catch (Exception exception) {
             throw new ReflectionException("Error to get instance. ", exception);
         }
