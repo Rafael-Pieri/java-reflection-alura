@@ -27,9 +27,8 @@ public class InterfaceTest {
 		assertEquals("interface br.com.alura.reflection.interfaces.ExampleInterface",
 				ExampleInterface.class.toString());
 
-		ExampleInterface exampleInterface = mapper.getInstance(ExampleInterface.class, "test", new Integer(1));
+		ExampleInterface exampleInterface = mapper.getInstance(ExampleInterface.class, "test", 1);
 
 		assertEquals("class br.com.alura.reflection.ExampleClass", exampleInterface.getClass().toString());
 	}
-
 }

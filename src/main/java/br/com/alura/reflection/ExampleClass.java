@@ -7,5 +7,4 @@ public class ExampleClass implements ExampleInterface {
 	public ExampleClass(String string, Integer value) {
 
 	}
-
 }

@@ -24,13 +24,12 @@ public class MethodsTest {
 
 	@Test
 	public void mustBeAValidObject() {
-		assertTrue(Validator.validObject(user));
+		assertTrue(Validator.isObjectValid(user));
 	}
 
 	@Test
 	public void mustBeAnInvalidObject() {
 		user.setLogin("invalidlogin");
-		assertFalse(Validator.validObject(user));
+		assertFalse(Validator.isObjectValid(user));
 	}
-
 }
