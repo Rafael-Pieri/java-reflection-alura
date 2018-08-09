@@ -1,4 +1,4 @@
-## Alura Online Courses - Java Reflection: magic and meta programming
+## Java Reflection: Magic and meta programming
 
 ### Overview
 This repository contains some examples of how to use java reflection, 
