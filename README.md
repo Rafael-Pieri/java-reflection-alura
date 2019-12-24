@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/rafael-pieri/java-reflection-alura.svg?branch=master)](https://travis-ci.com/rafael-pieri/java-reflection-alura)
+
 ## Java Reflection: Magic and meta programming
 
 ### Overview
